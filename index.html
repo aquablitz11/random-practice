@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <span class="title">aqua's secret stash :o</span>
+      </div>
+    </header>
+
+    <div class="container" id="app">
+
+    <h1>Binary Search Tutorial</h1>
+
+    <p>ไม่ได้ว่างถึงขั้นที่จะมานั่งเขียนเนื้อหาขนาดนั้น เพราะฉะนั้นเอาข้อมูล array ใส่ด้านล่างนี้แล้วจัดการเองละกัน อิอิ</p>
+
+    <center>
+    <input type="text" style="width:80%" v-model="haystackstr">
+    <input type="text" style="width:10%" v-model="needlestr">
+    </center>
+
+    <h2>Linear Search</h2>
+    <visualizer type="linear" :needle="needlestr" :haystack="haystackstr" id="linearvisual"></visualizer>
+
+    <h2>Binary Search</h2>
+    <visualizer type="binary" :needle="needlestr" :haystack="haystackstr" id="binaryvisual"></visualizer>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
