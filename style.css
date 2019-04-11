@@ -4,6 +4,10 @@ body {
     margin: 0
 }
 
+hr {
+    margin: 30px
+}
+
 header {
     background-color: #39f;
     color: white;
@@ -19,6 +23,7 @@ header a {
 }
 
 .container {
+    width: 100%;
     max-width: 768px;
     padding: 10px;
     margin: auto;
@@ -33,7 +38,7 @@ header a {
     width: 80%;
 }
 
-.number {
+.numberbox {
     display: inline-block;
     color: #4f4f4f;
     background: #eee;
@@ -120,4 +125,19 @@ header a {
 .explanation {
     display: inline-block;
     font-size: 1em
+}
+
+h1 {
+    margin: 1em
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.contact {
+    position: relative;
+    left: 25px
 }
